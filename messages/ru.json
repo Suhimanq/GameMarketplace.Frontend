@@ -1,0 +1,93 @@
+{
+  "HomePage": {
+    "title": "Привет мир!",
+    "about": "Добро пожаловать!"
+  },
+  "HeaderNavMenu": {
+    "store_title": "Магазин",
+    "community_title": "Сообщество",
+    "chat_title": "Чат",
+    "support_title": "Поддержка",
+    "discussions": "Обсуждения",
+    "forum": "Форум",
+    "groups": "Группы",
+    "private_chats": "Чаты",
+    "group_chats": "Группы",
+    "top_products": "Топ",
+    "home": "Главная",
+    "sales": "Скидки",
+    "contact_support": "Связаться с поддержкой",
+    "faq": "FAQ"
+  },
+  "HeaderAuth": {
+    "login": "Войти",
+    "register": "Регистрация"
+  },
+  "LoginPage": {
+    "login_title": "Вход",
+    "login_name": "Войдите используя имя аккаунта",
+    "login_password": "Пароль",
+    "login_remember_btn": "Запомнить меня",
+    "login_enter_btn": "Войти",
+    "reg_title": "Регистрация",
+    "reg_name": "Придуймайте имя аккаунта",
+    "reg_password": "Придуймате пароль",
+    "second_reg_password": "Повторите пароль",
+    "reg_enter_btn": "Зарегистрироваться",
+    "have_account": "Есть аккаунт?",
+    "no_account": "Нет аккаунта? Зарегистрируйтесь!"
+  },
+  "ChatPage": {
+    "chat_title": "Чаты"
+  },
+  "FooterPage": {
+    "footer_info": "© 2024 Nevets Corporation. Все права сохранены."
+  },
+  "NavMenu": {
+    "categories": "Все категории",
+    "selling": "Начать продавать",
+    "partnership": "Сотрудничество",
+    "guides": "Советы и гайды",
+    "garanties": "Наши гарантии",
+    "services": "Платные услуги",
+    "search_label": "Поиск..."
+  },
+  "MainTagNew": {
+    "new": "Новое"
+  },
+  "GameServicesProductPage": {
+    "recommendation": "Рекомендации",
+    "no_recommendations": "Нет доступных рекомендаций"
+  },
+  "NetworkServicesProductPage": {
+    "recommendation": "Рекомендации",
+    "no_recommendations": "Нет доступных рекомендаций"
+  },
+  "GameProductPage": {
+    "game_services": "Игровые сервисы"
+  },
+  "NetworkProductPage": {
+    "network_services": "Сетевые продукты"
+  },
+  "ProductBannerCard": {
+    "special_offers": "Специальные предложения"
+  },
+  "StoreProducts" : {
+    "free": "Бесплатно"
+  },
+  "StoreFilter": {
+    "search": "Поиск",
+    "category": "Категория",
+    "all": "Все",
+    "action": "Экшн",
+    "adventure": "Приключения",
+    "music": "Музыка",
+    "video": "Видео",
+    "platform": "Платформа",
+    "windows": "Windows",
+    "ios": "IOS",
+    "android": "Android",
+    "price": "Цена",
+    "resetFilters": "Сбросить фильтры"
+  }
+}

@@ -1,0 +1,11 @@
+.banner_body {
+  width: 100%;
+
+  .content_block {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // border-bottom: 1px solid #171d25;
+  }
+}

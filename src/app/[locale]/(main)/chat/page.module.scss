@@ -1,0 +1,159 @@
+.chat_body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  box-sizing: border-box;
+  background: #1b2838 url("/background_blue.png") no-repeat center center;
+  background-size: cover;
+  .left_block {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    box-sizing: border-box;
+    .chat_block {
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      background-color: rgb(22, 33, 46);
+      height: 100%;
+      width: 100%;
+      border-radius: 20px;
+      .chat_title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        margin-top: 10px;
+        font-family: "Montserrat", sans-serif;
+      }
+      .chat_item {
+        background-color: rgb(35, 52, 73);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 10px;
+        margin-top: 2px;
+        margin-right: 10px;
+        margin-bottom: 6px;
+        padding: 10px;
+        border-radius: 10px;
+        .chat_avatar {
+          display: flex;
+        }
+        .chat_nickname {
+          margin-left: 20px;
+          font-size: 20px;
+          font-family: "Montserrat", sans-serif;
+        }
+      }
+    }
+  }
+  .right_block {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    .massage_block {
+      width: 100%;
+      background-color: rgb(35, 52, 73);
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      border-radius: 20px;
+      .massage_title {
+        background-color: rgb(35, 52, 73);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+        justify-content: center;
+        border-radius: 20px;
+        .massage_avatar {
+          margin: 10px;
+        }
+        .massage_nickname {
+          margin-left: 20px;
+          font-size: 20px;
+          font-family: "Montserrat", sans-serif;
+          display: flex;
+          justify-content: center;
+        }
+      }
+      .massage_content {
+        width: 100%;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        .massage_box {
+          background-color: rgb(22, 33, 46);
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          .message_content_send {
+            width: 100%;
+            justify-content: flex-end;
+            align-items: center;
+            display: flex;
+            margin-top: 20px;
+            .avatar_message_send {
+              margin: 30px 10px;
+            }
+            .message_send {
+              margin-right: 10px;
+              width: 90%;
+              justify-content: flex-end;
+              display: flex;
+              font-size: 14px;
+              font-family: "Montserrat", sans-serif;
+              color: #b6b6b6;
+            }
+          }
+          .message_content_get {
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            .avatar_message_get {
+              margin: 30px 10px;
+            }
+            .messege_get {
+              margin-left: 10px;
+              width: 90%;
+              justify-content: flex-start;
+              display: flex;
+              font-size: 14px;
+              font-family: "Montserrat", sans-serif;
+              margin-top: 20px;
+            }
+          }
+        }
+        .massage_field {
+          width: 100%;
+          height: 100%;
+          max-height: 70px;
+          display: flex;
+          margin-left: 20px;
+          align-items: center;
+          .icon {
+            color: rgb(3, 0, 31);
+            margin-right: 20px;
+          }
+          .enter_btn {
+            margin-left: 15px;
+            padding: 10px;
+            background-color: rgb(39, 59, 82);
+            color: rgb(90, 108, 128);
+            border-radius: 20px;
+          }
+        }
+      }
+    }
+  }
+}

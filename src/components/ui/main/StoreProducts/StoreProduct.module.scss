@@ -1,0 +1,88 @@
+.main_body {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  .store_filter {
+    width: 60%;
+    background-color: #213144;
+    max-height: 360px;
+    border-radius: 8px;
+    justify-content: center;
+    padding: 10px 10px 0px 10px;
+  }
+  .product_list_body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #1b2838;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .product_item {
+    display: flex;
+    align-items: center;
+    background-color: #2a475e;
+    height: 69px;
+    font-family: "Monserrat", sans-serif;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: scale(1.02);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  .product_image {
+    width: 184px;
+    height: 69px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+  .product_details {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .product_name {
+    font-size: 1.2rem;
+    color: #c7d5e0;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+  .platform {
+    font-size: 0.9rem;
+    color: #66c0f4;
+    margin-left: 10px;
+    margin-top: 2px;
+  }
+
+  .category {
+    font-size: 0.9rem;
+    color: #8f98a0;
+    margin-left: 10px;
+    margin-top: 2px;
+  }
+
+  .price {
+    font-size: 1rem;
+    color: #66c0f4;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .release_date {
+    font-size: 0.8rem;
+    color: #8f98a0;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+}

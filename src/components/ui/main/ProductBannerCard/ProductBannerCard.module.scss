@@ -1,0 +1,90 @@
+.carouselContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1440px;
+  height: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(19, 28, 39, 0.919);
+
+  .text_container {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    z-index: 10;
+    background-color: rgba(6, 43, 88, 0.336);
+    display: flex;
+    align-items: center;
+    .text {
+      font-family: "Montserrat", sans-serif;
+      margin-left: 30px;
+      font-size: 24px;
+      color: white;
+    }
+  }
+
+  .card {
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    cursor: default;
+    opacity: 0;
+    transition: opacity 1s ease;
+
+    &.active {
+      opacity: 1;
+    }
+
+    &.fadeIn {
+      opacity: 1;
+      animation: fadeIn 0.5s ease-in forwards;
+    }
+
+    &.fadeOut {
+      opacity: 0;
+      animation: fadeOut 1s ease-in forwards;
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  .indicators {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    gap: 10px;
+
+    .indicator {
+      width: 12px;
+      height: 12px;
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 50%;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+
+      &.activeIndicator {
+        background-color: rgb(58, 69, 228);
+        transform: scale(1.3);
+      }
+    }
+  }
+}

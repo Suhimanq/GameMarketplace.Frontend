@@ -1,0 +1,96 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Welcome!"
+  },
+  "HeaderNavMenu": {
+    "store_title": "Store",
+    "community_title": "Community",
+    "chat_title": "Chat",
+    "support_title": "Support",
+    "discussions": "Discussion's",
+    "forum": "Forum",
+    "groups": "Group's",
+    "private_chats": "Chat",
+    "group_chats": "Group's",
+    "top_products": "Top",
+    "home": "Home",
+    "sales": "Sales",
+    "contact_support": "Contact with support",
+    "faq": "FAQ"
+  },
+  "HeaderAuth": {
+    "login": "Login",
+    "register": "Register"
+  },
+  "LoginPage": {
+    "login_title": "Login",
+    "login_name": "Login with account name",
+    "login_password": "Password",
+    "login_remember_btn": "Remember me",
+    "login_enter_btn": "Login",
+    "reg_title": "Register",
+    "reg_name": "Create an account name",
+    "reg_password": "Create a password",
+    "second_reg_password": "Repeat password",
+    "reg_enter_btn": "Register",
+    "have_account": "Have account?",
+    "no_account": "Don't have an account? Register!"
+  },
+
+  "ChatPage": {
+    "chat_title": "Chat's"
+  },
+  "FooterPage": {
+    "footer_info": "© 2024 Nevets Corporation. All rights reserved."
+  },
+  "NavMenu": {
+    "categories": "All categories",
+    "selling": "Start selling",
+    "partnership": "Partnership",
+    "guides": "Tips and guides",
+    "garanties": "Our garanties",
+    "services": "Our services",
+    "search_label": "Search..."
+  },
+  "MainTagNew": {
+    "new": "New"
+  },
+  "GameServicesProductPage": {
+    "recommendation": "Recommendation",
+    "no_recommendations": "No recommendations available"
+  },
+  "NetworkServicesProductPage": {
+    "recommendation": "Recommendation",
+    "no_recommendations": "No recommendations available"
+  },
+  "GameProductPage": {
+    "game_services": "Game Services"
+  },
+  "NetworkProductPage": {
+    "network_services": "Network Services"
+  },
+  "ProductBannerCard": {
+    "special_offers": "Special Offers"
+  },
+  "StoreProducts" : {
+    "free": "Free"
+  },
+  "StoreFilter": {
+    "search": "Search",
+    "category": "Category",
+    "all": "All",
+    "action": "Action",
+    "adventure": "Adventure",
+    "music": "Music",
+    "video": "Video",
+    "platform": "Platform",
+    "windows": "Windows",
+    "ios": "IOS",
+    "android": "Android",
+    "price": "Prise",
+    "resetFilters": "Reset Filters"
+  }
+}
+
+

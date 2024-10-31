@@ -1,0 +1,64 @@
+@keyframes glowAnimation {
+  0% {
+    background: linear-gradient(
+      90deg,
+      rgba(58, 120, 177, 0.919) 11.38%,
+      rgba(30, 50, 120, 0.8) 25.23%,
+      rgb(15, 33, 110) 100%
+    );
+    box-shadow: 0 0 40px rgba(58, 120, 177, 0.8);
+  }
+  50% {
+    background: linear-gradient(
+      90deg,
+      rgba(72, 150, 230, 0.919) 11.38%,
+      rgba(30, 100, 180, 0.8) 25.23%,
+      rgb(15, 33, 120) 100%
+    );
+    box-shadow: 0 0 40px rgba(72, 150, 230, 0.8);
+  }
+  100% {
+    background: linear-gradient(
+      90deg,
+      rgba(58, 100, 180, 0.919) 11.38%,
+      rgba(30, 70, 160, 0.8) 25.23%,
+      rgb(15, 33, 110) 100%
+    );
+    box-shadow: 0 0 40px rgba(58, 100, 180, 0.8);
+  }
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  position: relative;
+  width: 400px;
+  height: 220px;
+  cursor: pointer;
+  transition: transform 0.3s, border 0.3s, box-shadow 0.3s;
+  border-radius: 18px;
+  overflow: hidden;
+  margin-right: 20px;
+  &:hover {
+    transform: scale(1.05);
+    animation: glowAnimation 1.5s infinite;
+  }
+
+  .tagNew {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+}
+
+.centerCard {
+  margin-top: 20px;
+}

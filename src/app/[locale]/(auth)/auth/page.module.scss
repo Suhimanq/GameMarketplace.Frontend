@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+.auth_sheet {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  // background: #1b2838 url("/background-image.png") no-repeat center center;
+  // background-size: cover;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+}
+
+.auth_block {
+  display: flex;
+  width: 768px;
+  background-color: rgba(0, 0, 0, 0.253);
+  color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  position: relative;
+
+  .left_block {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    order: 1;
+    transition: opacity 0.6s ease-in-out, visibility 0.6s;
+
+    &.hidden {
+      visibility: hidden;
+      opacity: 0;
+    }
+  }
+
+  .right_block {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    order: 2;
+    transition: opacity 0.6s ease-in-out, visibility 0.6s;
+
+    &.hidden {
+      visibility: hidden;
+      opacity: 0;
+    }
+  }
+
+  .auth_login_title,
+  .auth_reg_title {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+  }
+  .auth_box {
+    background-color: #181a21;
+    padding: 24px 36px;
+    border-radius: 4px;
+  }
+
+  .auth_content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    .auth_name {
+      color: #1999ff;
+      font-size: 14px;
+      font-family: "Montserrat", sans-serif;
+    }
+
+    .auth_password {
+      font-family: "Montserrat", sans-serif;
+      color: #afafaf;
+      font-size: 14px;
+    }
+    .switch_button {
+      font-family: "Montserrat", sans-serif;
+    }
+    .auth_btn {
+      font-family: "Montserrat", sans-serif;
+      background-color: #512da8;
+      color: #fff;
+      font-size: 12px;
+      padding: 10px 45px;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-top: 10px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      &:hover {
+        background-color: #116ab3;
+      }
+    }
+
+    .switch_button {
+      background-color: transparent;
+      color: #1999ff;
+      border: none;
+      cursor: pointer;
+      margin-top: 10px;
+      text-decoration: underline;
+      z-index: 4;
+
+      &:hover {
+        color: #116ab3;
+      }
+    }
+  }
+
+  .moving_rectangle {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background-color: #1999ff;
+    z-index: 3;
+    transition: transform 0.6s ease-in-out, border-radius 0.5s ease-in-out;
+  }
+
+  .show_right {
+    transform: translateX(100%); // ----->
+    border-radius: 50px 0 0 50px;
+    background-color: rgba(25, 151, 255, 0.459);
+  }
+
+  .show_left {
+    transform: translateX(0); // <-----
+    border-radius: 0 50px 50px 0;
+    background-color: rgba(25, 151, 255, 0.459);
+  }
+}
