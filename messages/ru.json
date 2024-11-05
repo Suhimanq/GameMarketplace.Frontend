@@ -87,6 +87,8 @@
     "windows": "Windows",
     "ios": "IOS",
     "android": "Android",
+    "ps4": "PS4",
+    "xbox": "Xbox",
     "price": "Цена",
     "resetFilters": "Сбросить фильтры"
   }

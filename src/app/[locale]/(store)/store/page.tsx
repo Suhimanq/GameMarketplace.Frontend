@@ -17,9 +17,6 @@ export default function StorePage() {
         <div className={styles.store_products}>
           <StoreProduct />
         </div>
-        <div className={styles.store_filters}>
-          {/* <StoreFilter /> */}
-        </div>
       </div>
     </div>
   );

@@ -1,0 +1,128 @@
+.main_body {
+  margin: 10px 0;
+  background-color: #1b2838;
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+
+  .navigation_block {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .product_block {
+    background: linear-gradient(
+      90deg,
+      rgba(62, 103, 150, 0.919) 11.38%,
+      rgba(58, 120, 177, 0.8) 25.23%,
+      rgb(15, 33, 110) 100%
+    );
+    border-radius: 16px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+
+    .left_block {
+      flex: 2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #1a2755;
+      border-radius: 16px;
+      padding: 20px;
+    }
+
+    .right_block {
+      flex: 1;
+      color: #e0e0e0;
+      position: relative;
+
+      .logo_product {
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 20px;
+        border-radius: 16px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        &:hover {
+          transform: scale(1.05);
+          box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+        }
+      }
+
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+
+      p {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-bottom: 15px;
+      }
+
+      .release_date {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        font-size: 0.9rem;
+        color: #ffffff46;
+      }
+
+      .price_button {
+        margin-top: 15px;
+        padding: 10px 20px;
+        background-color: #f05c5c;
+        color: #ffffff;
+        border: none;
+        border-radius: 8px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+
+        &:hover {
+          background-color: #e44a4a;
+          transform: scale(1.05);
+        }
+
+        &:active {
+          transform: scale(0.98);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .product_block {
+    flex-direction: column;
+    align-items: center;
+
+    .left_block,
+    .right_block {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .right_block {
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 0.9rem;
+    }
+
+    .price_button {
+      width: 100%;
+    }
+  }
+}

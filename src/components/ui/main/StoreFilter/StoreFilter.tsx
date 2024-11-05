@@ -195,6 +195,8 @@ export default function StoreFilter({ onFilterChange }: FilterProps) {
           <MenuItem value="Windows">{t("windows")}</MenuItem>
           <MenuItem value="IOS">{t("ios")}</MenuItem>
           <MenuItem value="Android">{t("android")}</MenuItem>
+          <MenuItem value="PS4">{t("ps4")}</MenuItem>
+          <MenuItem value="Xbox">{t("xbox")}</MenuItem>
         </Select>
       </FormControl>
       <Box>

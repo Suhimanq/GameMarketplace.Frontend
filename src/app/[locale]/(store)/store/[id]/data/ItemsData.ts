@@ -1,6 +1,6 @@
-import { StoreProductProps } from "../StoreProduct.props";
+import { StoreItemsProps } from "./ItemsProps.props";
 
-export const storeProductData: StoreProductProps[] = [
+export const storeItemsData: StoreItemsProps[] = [
   {
     id: 1,
     name: "Counter Strike 2",
@@ -9,7 +9,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Shooter", "Action"],
     price: 0,
     releaseDate: "27.09.2023",
-    imageUrl: "/StoreProductsImages/cs2.png",
+    visualContent: ["/StoreProductsImages/cs2.png"],
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["MOBA", "Strategy"],
     price: 0,
     releaseDate: "09.07.2013",
-    imageUrl: "/StoreProductsImages/dota2.png",
+    visualContent: ["/StoreProductsImages/dota2.png"],
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Shooter", "Tactical"],
     price: 17.99,
     releaseDate: "01.12.2015",
-    imageUrl: "/StoreProductsImages/rb6.png",
+    visualContent: ["/StoreProductsImages/rb6.png"],
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Music", "Multimedia"],
     price: 0,
     releaseDate: "07.10.2008",
-    imageUrl: "/StoreProductsImages/spotify_logo.png",
+    visualContent: ["/StoreProductsImages/spotify_logo.png"],
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Video", "Multimedia"],
     price: 0,
     releaseDate: "14.02.2005",
-    imageUrl: "/StoreProductsImages/youtube_logo.png",
+    visualContent: ["/StoreProductsImages/youtube_logo.png"],
   },
   {
     id: 6,
@@ -59,7 +59,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["RPG", "Adventure"],
     price: 29.99,
     releaseDate: "19.05.2015",
-    imageUrl: "/StoreProductsImages/witcher3.png",
+    visualContent: ["/StoreProductsImages/witcher3.png"],
   },
   {
     id: 7,
@@ -69,7 +69,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Sandbox", "Adventure"],
     price: 26.95,
     releaseDate: "17.05.2009",
-    imageUrl: "/StoreProductsImages/minecraft.png",
+    visualContent: ["/StoreProductsImages/minecraft.png"],
   },
   {
     id: 8,
@@ -79,22 +79,17 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Battle Royale", "Action"],
     price: 0,
     releaseDate: "25.07.2017",
-    imageUrl: "/StoreProductsImages/fortnite.png",
+    visualContent: ["/StoreProductsImages/fortnite.png"],
   },
   {
     id: 9,
     name: "GTA V",
     platform: ["Windows", "PS4", "Xbox"],
-    gameService: [
-      "Steam",
-      "Rockstar Games Launcher",
-      "PlayStation Store",
-      "Microsoft Store",
-    ],
+    gameService: ["Steam", "Rockstar Games Launcher", "PlayStation Store", "Microsoft Store"],
     category: ["Action", "Adventure"],
     price: 19.99,
     releaseDate: "17.09.2013",
-    imageUrl: "/StoreProductsImages/gtav.png",
+    visualContent: ["/StoreProductsImages/gtav.png"],
   },
   {
     id: 10,
@@ -104,7 +99,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["RPG", "Action"],
     price: 59.99,
     releaseDate: "10.12.2020",
-    imageUrl: "/StoreProductsImages/cyberpunk2077.png",
+    visualContent: ["/StoreProductsImages/cyberpunk2077.png"],
   },
   {
     id: 11,
@@ -114,7 +109,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Battle Royale", "Shooter"],
     price: 0,
     releaseDate: "04.02.2019",
-    imageUrl: "/StoreProductsImages/apex_legends.png",
+    visualContent: ["/StoreProductsImages/apex_legends.png"],
   },
   {
     id: 12,
@@ -124,7 +119,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Shooter", "Action"],
     price: 0,
     releaseDate: "02.06.2020",
-    imageUrl: "/StoreProductsImages/valorant.png",
+    visualContent: ["/StoreProductsImages/valorant.png"],
   },
   {
     id: 13,
@@ -134,7 +129,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["MOBA", "Strategy"],
     price: 0,
     releaseDate: "27.10.2009",
-    imageUrl: "/StoreProductsImages/lol.png",
+    visualContent: ["/StoreProductsImages/lol.png"],
   },
   {
     id: 14,
@@ -144,7 +139,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Party", "Strategy"],
     price: 4.99,
     releaseDate: "15.06.2018",
-    imageUrl: "/StoreProductsImages/among_us.png",
+    visualContent: ["/StoreProductsImages/among_us.png"],
   },
   {
     id: 15,
@@ -154,7 +149,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Shooter", "Action"],
     price: 0,
     releaseDate: "04.10.2022",
-    imageUrl: "/StoreProductsImages/overwatch2.png",
+    visualContent: ["/StoreProductsImages/overwatch2.png"],
   },
   {
     id: 16,
@@ -164,7 +159,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Roguelike", "Action"],
     price: 24.99,
     releaseDate: "17.09.2020",
-    imageUrl: "/StoreProductsImages/hades.png",
+    visualContent: ["/StoreProductsImages/hades.png"],
   },
   {
     id: 17,
@@ -174,7 +169,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Simulation", "RPG"],
     price: 14.99,
     releaseDate: "26.02.2016",
-    imageUrl: "/StoreProductsImages/stardew_valley.png",
+    visualContent: ["/StoreProductsImages/stardew_valley.png"],
   },
   {
     id: 18,
@@ -184,7 +179,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Sports"],
     price: 59.99,
     releaseDate: "30.09.2022",
-    imageUrl: "/StoreProductsImages/fifa23.png",
+    visualContent: ["/StoreProductsImages/fifa23.png"],
   },
   {
     id: 19,
@@ -194,7 +189,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Shooter", "Action"],
     price: 0,
     releaseDate: "10.03.2020",
-    imageUrl: "/StoreProductsImages/warzone.png",
+    visualContent: ["/StoreProductsImages/warzone.png"],
   },
   {
     id: 20,
@@ -204,7 +199,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Simulation", "Family"],
     price: 59.99,
     releaseDate: "20.03.2020",
-    imageUrl: "/StoreProductsImages/animal_crossing.png",
+    visualContent: ["/StoreProductsImages/animal_crossing.png"],
   },
   {
     id: 21,
@@ -214,7 +209,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Party", "Platformer"],
     price: 0,
     releaseDate: "04.08.2020",
-    imageUrl: "/StoreProductsImages/fall_guys.png",
+    visualContent: ["/StoreProductsImages/fall_guys.png"],
   },
   {
     id: 22,
@@ -224,7 +219,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Metroidvania", "Action"],
     price: 14.99,
     releaseDate: "24.02.2017",
-    imageUrl: "/StoreProductsImages/hollow_knight.png",
+    visualContent: ["/StoreProductsImages/hollow_knight.png"],
   },
   {
     id: 23,
@@ -234,7 +229,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Platformer", "Adventure"],
     price: 19.99,
     releaseDate: "25.01.2018",
-    imageUrl: "/StoreProductsImages/celeste.png",
+    visualContent: ["/StoreProductsImages/celeste.png"],
   },
   {
     id: 24,
@@ -244,7 +239,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Adventure", "RPG"],
     price: 59.99,
     releaseDate: "03.03.2017",
-    imageUrl: "/StoreProductsImages/zelda_botw.png",
+    visualContent: ["/StoreProductsImages/zelda_botw.png"],
   },
   {
     id: 25,
@@ -254,22 +249,17 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Platformer", "Adventure"],
     price: 59.99,
     releaseDate: "27.10.2017",
-    imageUrl: "/StoreProductsImages/mario_odyssey.png",
+    visualContent: ["/StoreProductsImages/mario_odyssey.png"],
   },
   {
     id: 26,
     name: "Red Dead Redemption 2",
     platform: ["Windows", "PS4", "Xbox"],
-    gameService: [
-      "Steam",
-      "Rockstar Games Launcher",
-      "PlayStation Store",
-      "Microsoft Store",
-    ],
+    gameService: ["Steam", "Rockstar Games Launcher", "PlayStation Store", "Microsoft Store"],
     category: ["Action", "Adventure"],
     price: 39.99,
     releaseDate: "26.10.2018",
-    imageUrl: "/StoreProductsImages/rdr2.png",
+    visualContent: ["/StoreProductsImages/rdr2.png"],
   },
   {
     id: 27,
@@ -279,7 +269,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Battle Royale", "Shooter"],
     price: 29.99,
     releaseDate: "20.12.2017",
-    imageUrl: "/StoreProductsImages/pubg.png",
+    visualContent: ["/StoreProductsImages/pubg.png"],
   },
   {
     id: 28,
@@ -289,22 +279,17 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Adventure", "Action"],
     price: 39.99,
     releaseDate: "20.03.2018",
-    imageUrl: "/StoreProductsImages/sea_of_thieves.png",
+    visualContent: ["/StoreProductsImages/sea_of_thieves.png"],
   },
   {
     id: 29,
     name: "Assassin's Creed Valhalla",
     platform: ["Windows", "PS4", "Xbox"],
-    gameService: [
-      "Steam",
-      "Ubisoft Store",
-      "PlayStation Store",
-      "Microsoft Store",
-    ],
+    gameService: ["Steam", "Ubisoft Store", "PlayStation Store", "Microsoft Store"],
     category: ["Action", "RPG"],
     price: 59.99,
     releaseDate: "10.11.2020",
-    imageUrl: "/StoreProductsImages/ac_valhalla.png",
+    visualContent: ["/StoreProductsImages/ac_valhalla.png"],
   },
   {
     id: 30,
@@ -314,7 +299,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Adventure", "Action"],
     price: 49.99,
     releaseDate: "08.11.2019",
-    imageUrl: "/StoreProductsImages/death_stranding.png",
+    visualContent: ["/StoreProductsImages/death_stranding.png"],
   },
   {
     id: 31,
@@ -324,7 +309,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Adventure", "Simulation"],
     price: 29.99,
     releaseDate: "09.08.2016",
-    imageUrl: "/StoreProductsImages/no_mans_sky.png",
+    visualContent: ["/StoreProductsImages/no_mans_sky.png"],
   },
   {
     id: 32,
@@ -334,7 +319,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Action", "RPG"],
     price: 39.99,
     releaseDate: "12.04.2016",
-    imageUrl: "/StoreProductsImages/dark_souls_3.png",
+    visualContent: ["/StoreProductsImages/dark_souls_3.png"],
   },
   {
     id: 33,
@@ -344,7 +329,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Action", "RPG"],
     price: 19.99,
     releaseDate: "24.03.2015",
-    imageUrl: "/StoreProductsImages/bloodborne.png",
+    visualContent: ["/StoreProductsImages/bloodborne.png"],
   },
   {
     id: 34,
@@ -354,7 +339,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Action", "RPG"],
     price: 29.99,
     releaseDate: "26.01.2018",
-    imageUrl: "/StoreProductsImages/monster_hunter_world.png",
+    visualContent: ["/StoreProductsImages/monster_hunter_world.png"],
   },
   {
     id: 35,
@@ -364,7 +349,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Horror", "Action"],
     price: 59.99,
     releaseDate: "07.05.2021",
-    imageUrl: "/StoreProductsImages/re_village.png",
+    visualContent: ["/StoreProductsImages/re_village.png"],
   },
   {
     id: 36,
@@ -374,22 +359,17 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Platformer", "Action"],
     price: 19.99,
     releaseDate: "29.09.2017",
-    imageUrl: "/StoreProductsImages/cuphead.png",
+    visualContent: ["/StoreProductsImages/cuphead.png"],
   },
   {
     id: 37,
     name: "Control",
     platform: ["Windows", "PS4", "Xbox"],
-    gameService: [
-      "Steam",
-      "Epic Games Store",
-      "PlayStation Store",
-      "Microsoft Store",
-    ],
+    gameService: ["Steam", "Epic Games Store", "PlayStation Store", "Microsoft Store"],
     category: ["Action", "Adventure"],
     price: 29.99,
     releaseDate: "27.08.2019",
-    imageUrl: "/StoreProductsImages/control.png",
+    visualContent: ["/StoreProductsImages/control.png"],
   },
   {
     id: 38,
@@ -399,7 +379,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Action", "Adventure"],
     price: 59.99,
     releaseDate: "17.07.2020",
-    imageUrl: "/StoreProductsImages/ghost_of_tsushima.png",
+    visualContent: ["/StoreProductsImages/ghost_of_tsushima.png"],
   },
   {
     id: 39,
@@ -409,7 +389,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Action", "RPG"],
     price: 49.99,
     releaseDate: "13.03.2020",
-    imageUrl: "/StoreProductsImages/nioh2.png",
+    visualContent: ["/StoreProductsImages/nioh2.png"],
   },
   {
     id: 40,
@@ -419,7 +399,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Shooter", "Action"],
     price: 39.99,
     releaseDate: "20.03.2020",
-    imageUrl: "/StoreProductsImages/doom_eternal.png",
+    visualContent: ["/StoreProductsImages/doom_eternal.png"],
   },
   {
     id: 41,
@@ -429,7 +409,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Shooter", "Action"],
     price: 59.99,
     releaseDate: "21.07.2017",
-    imageUrl: "/StoreProductsImages/splatoon2.png",
+    visualContent: ["/StoreProductsImages/splatoon2.png"],
   },
   {
     id: 42,
@@ -439,7 +419,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Roguelike", "Action"],
     price: 24.99,
     releaseDate: "07.08.2018",
-    imageUrl: "/StoreProductsImages/dead_cells.png",
+    visualContent: ["/StoreProductsImages/dead_cells.png"],
   },
   {
     id: 43,
@@ -449,7 +429,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Action", "RPG"],
     price: 49.99,
     releaseDate: "28.02.2017",
-    imageUrl: "/StoreProductsImages/horizon_zero_dawn.png",
+    visualContent: ["/StoreProductsImages/horizon_zero_dawn.png"],
   },
   {
     id: 44,
@@ -459,22 +439,17 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Platformer", "Adventure"],
     price: 29.99,
     releaseDate: "11.03.2020",
-    imageUrl: "/StoreProductsImages/ori_wisps.png",
+    visualContent: ["/StoreProductsImages/ori_wisps.png"],
   },
   {
     id: 45,
     name: "The Outer Worlds",
     platform: ["Windows", "PS4", "Xbox"],
-    gameService: [
-      "Steam",
-      "Epic Games Store",
-      "PlayStation Store",
-      "Microsoft Store",
-    ],
+    gameService: ["Steam", "Epic Games Store", "PlayStation Store", "Microsoft Store"],
     category: ["RPG", "Adventure"],
     price: 59.99,
     releaseDate: "25.10.2019",
-    imageUrl: "/StoreProductsImages/outer_worlds.png",
+    visualContent: ["/StoreProductsImages/outer_worlds.png"],
   },
   {
     id: 46,
@@ -484,7 +459,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Action", "Adventure"],
     price: 49.99,
     releaseDate: "22.03.2019",
-    imageUrl: "/StoreProductsImages/sekiro.png",
+    visualContent: ["/StoreProductsImages/sekiro.png"],
   },
   {
     id: 47,
@@ -494,7 +469,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Platformer", "Adventure"],
     price: 59.99,
     releaseDate: "02.10.2020",
-    imageUrl: "/StoreProductsImages/crash_4.png",
+    visualContent: ["/StoreProductsImages/crash_4.png"],
   },
   {
     id: 48,
@@ -504,7 +479,7 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Platformer", "Adventure"],
     price: 69.99,
     releaseDate: "11.06.2021",
-    imageUrl: "/StoreProductsImages/ratchet_clank.png",
+    visualContent: ["/StoreProductsImages/ratchet_clank.png"],
   },
   {
     id: 49,
@@ -514,21 +489,16 @@ export const storeProductData: StoreProductProps[] = [
     category: ["Action", "Adventure"],
     price: 39.99,
     releaseDate: "07.09.2018",
-    imageUrl: "/StoreProductsImages/spiderman.png",
+    visualContent: ["/StoreProductsImages/spiderman.png"],
   },
   {
     id: 50,
     name: "Ghostrunner",
     platform: ["Windows", "PS4", "Xbox"],
-    gameService: [
-      "Steam",
-      "Epic Games Store",
-      "PlayStation Store",
-      "Microsoft Store",
-    ],
+    gameService: ["Steam", "Epic Games Store", "PlayStation Store", "Microsoft Store"],
     category: ["Action", "Adventure"],
     price: 29.99,
     releaseDate: "27.10.2020",
-    imageUrl: "/StoreProductsImages/ghostrunner.png",
+    visualContent: ["/StoreProductsImages/ghostrunner.png"],
   },
 ];

@@ -1,4 +1,4 @@
-export interface StoreProductProps {
+export interface StoreItemsProps {
     id: number;
     name: string;
     platform: string[];
@@ -6,6 +6,6 @@ export interface StoreProductProps {
     category: string[];
     price: number;
     releaseDate: string;
-    imageUrl: string;
+    visualContent: string[];
   }
   

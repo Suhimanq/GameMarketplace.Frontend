@@ -87,6 +87,8 @@
     "platform": "Platform",
     "windows": "Windows",
     "ios": "IOS",
+    "ps4": "PS4",
+    "xbox": "Xbox",
     "android": "Android",
     "price": "Prise",
     "resetFilters": "Reset Filters"
