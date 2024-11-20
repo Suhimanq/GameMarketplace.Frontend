@@ -1,7 +1,7 @@
 "use client";
 
 import { useParams } from "next/navigation";
-import styles from "./page.module.scss";
+import styles from "./page.module.scss"
 import MainNavigation from "@/components/main/MainNavigation/MainNavigation";
 import { storeItemsData } from "./data/ItemsData";
 import { Button } from "@mui/base/Button/Button";
@@ -9,7 +9,6 @@ import { Button } from "@mui/base/Button/Button";
 export default function StoreItem() {
   const { id } = useParams();
   const itemId = Array.isArray(id) ? parseInt(id[0]) : parseInt(id);
-
   const storeItem = storeItemsData.find((item) => item.id === itemId);
 
   if (!storeItem) {
@@ -22,7 +21,9 @@ export default function StoreItem() {
         <MainNavigation />
       </div>
       <div className={styles.product_block}>
-        <div className={styles.left_block}></div>
+        <div className={styles.left_block}>
+          <video src={storeItem.previewTrailers[0]} controls autoPlay loop muted/>
+        </div>
         <div className={styles.right_block}>
           <div>
             <img src={storeItem.visualContent[0]} alt={storeItem.name} className={styles.logo_product}/>

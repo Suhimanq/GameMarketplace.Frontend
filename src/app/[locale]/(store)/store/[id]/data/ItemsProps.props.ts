@@ -7,5 +7,6 @@ export interface StoreItemsProps {
     price: number;
     releaseDate: string;
     visualContent: string[];
+    previewTrailers: string[];
   }
   

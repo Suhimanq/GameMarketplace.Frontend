@@ -10,6 +10,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 0,
     releaseDate: "27.09.2023",
     visualContent: ["/StoreProductsImages/cs2.png"],
+    previewTrailers: ["https://video.akamai.steamstatic.com/store_trailers/256972298/movie480_vp9.webm?t=1696005467"]
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 0,
     releaseDate: "09.07.2013",
     visualContent: ["/StoreProductsImages/dota2.png"],
+    previewTrailers: ["https://video.akamai.steamstatic.com/store_trailers/256692021/movie480.webm?t=1727827574"]
   },
   {
     id: 3,
@@ -30,6 +32,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 17.99,
     releaseDate: "01.12.2015",
     visualContent: ["/StoreProductsImages/rb6.png"],
+    previewTrailers: ["https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/ss_3eff8247a59ebc718e87753fd17c4d0321f03ebc.600x338.jpg?t=1730413628"]
   },
   {
     id: 4,
@@ -40,6 +43,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 0,
     releaseDate: "07.10.2008",
     visualContent: ["/StoreProductsImages/spotify_logo.png"],
+    previewTrailers: [""]
   },
   {
     id: 5,
@@ -50,6 +54,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 0,
     releaseDate: "14.02.2005",
     visualContent: ["/StoreProductsImages/youtube_logo.png"],
+    previewTrailers: [""]
   },
   {
     id: 6,
@@ -60,6 +65,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 29.99,
     releaseDate: "19.05.2015",
     visualContent: ["/StoreProductsImages/witcher3.png"],
+    previewTrailers: [""]
   },
   {
     id: 7,
@@ -70,6 +76,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 26.95,
     releaseDate: "17.05.2009",
     visualContent: ["/StoreProductsImages/minecraft.png"],
+    previewTrailers: [""]
   },
   {
     id: 8,
@@ -80,6 +87,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 0,
     releaseDate: "25.07.2017",
     visualContent: ["/StoreProductsImages/fortnite.png"],
+    previewTrailers: [""]
   },
   {
     id: 9,
@@ -90,6 +98,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 19.99,
     releaseDate: "17.09.2013",
     visualContent: ["/StoreProductsImages/gtav.png"],
+    previewTrailers: [""]
   },
   {
     id: 10,
@@ -100,6 +109,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 59.99,
     releaseDate: "10.12.2020",
     visualContent: ["/StoreProductsImages/cyberpunk2077.png"],
+    previewTrailers: [""]
   },
   {
     id: 11,
@@ -110,6 +120,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 0,
     releaseDate: "04.02.2019",
     visualContent: ["/StoreProductsImages/apex_legends.png"],
+    previewTrailers: [""]
   },
   {
     id: 12,
@@ -120,6 +131,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 0,
     releaseDate: "02.06.2020",
     visualContent: ["/StoreProductsImages/valorant.png"],
+    previewTrailers: [""]
   },
   {
     id: 13,
@@ -130,6 +142,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 0,
     releaseDate: "27.10.2009",
     visualContent: ["/StoreProductsImages/lol.png"],
+    previewTrailers: [""]
   },
   {
     id: 14,
@@ -140,6 +153,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 4.99,
     releaseDate: "15.06.2018",
     visualContent: ["/StoreProductsImages/among_us.png"],
+    previewTrailers: [""]
   },
   {
     id: 15,
@@ -150,6 +164,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 0,
     releaseDate: "04.10.2022",
     visualContent: ["/StoreProductsImages/overwatch2.png"],
+    previewTrailers: [""]
   },
   {
     id: 16,
@@ -160,6 +175,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 24.99,
     releaseDate: "17.09.2020",
     visualContent: ["/StoreProductsImages/hades.png"],
+    previewTrailers: [""]
   },
   {
     id: 17,
@@ -170,6 +186,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 14.99,
     releaseDate: "26.02.2016",
     visualContent: ["/StoreProductsImages/stardew_valley.png"],
+    previewTrailers: [""]
   },
   {
     id: 18,
@@ -180,6 +197,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 59.99,
     releaseDate: "30.09.2022",
     visualContent: ["/StoreProductsImages/fifa23.png"],
+    previewTrailers: [""]
   },
   {
     id: 19,
@@ -190,6 +208,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 0,
     releaseDate: "10.03.2020",
     visualContent: ["/StoreProductsImages/warzone.png"],
+    previewTrailers: [""]
   },
   {
     id: 20,
@@ -200,6 +219,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 59.99,
     releaseDate: "20.03.2020",
     visualContent: ["/StoreProductsImages/animal_crossing.png"],
+    previewTrailers: [""]
   },
   {
     id: 21,
@@ -210,6 +230,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 0,
     releaseDate: "04.08.2020",
     visualContent: ["/StoreProductsImages/fall_guys.png"],
+    previewTrailers: [""]
   },
   {
     id: 22,
@@ -220,6 +241,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 14.99,
     releaseDate: "24.02.2017",
     visualContent: ["/StoreProductsImages/hollow_knight.png"],
+    previewTrailers: [""]
   },
   {
     id: 23,
@@ -230,6 +252,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 19.99,
     releaseDate: "25.01.2018",
     visualContent: ["/StoreProductsImages/celeste.png"],
+    previewTrailers: [""]
   },
   {
     id: 24,
@@ -240,6 +263,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 59.99,
     releaseDate: "03.03.2017",
     visualContent: ["/StoreProductsImages/zelda_botw.png"],
+    previewTrailers: [""]
   },
   {
     id: 25,
@@ -250,6 +274,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 59.99,
     releaseDate: "27.10.2017",
     visualContent: ["/StoreProductsImages/mario_odyssey.png"],
+    previewTrailers: [""]
   },
   {
     id: 26,
@@ -260,6 +285,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 39.99,
     releaseDate: "26.10.2018",
     visualContent: ["/StoreProductsImages/rdr2.png"],
+    previewTrailers: [""]
   },
   {
     id: 27,
@@ -270,6 +296,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 29.99,
     releaseDate: "20.12.2017",
     visualContent: ["/StoreProductsImages/pubg.png"],
+    previewTrailers: [""]
   },
   {
     id: 28,
@@ -280,6 +307,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 39.99,
     releaseDate: "20.03.2018",
     visualContent: ["/StoreProductsImages/sea_of_thieves.png"],
+    previewTrailers: [""]
   },
   {
     id: 29,
@@ -290,6 +318,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 59.99,
     releaseDate: "10.11.2020",
     visualContent: ["/StoreProductsImages/ac_valhalla.png"],
+    previewTrailers: [""]
   },
   {
     id: 30,
@@ -300,6 +329,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 49.99,
     releaseDate: "08.11.2019",
     visualContent: ["/StoreProductsImages/death_stranding.png"],
+    previewTrailers: [""]
   },
   {
     id: 31,
@@ -310,6 +340,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 29.99,
     releaseDate: "09.08.2016",
     visualContent: ["/StoreProductsImages/no_mans_sky.png"],
+    previewTrailers: [""]
   },
   {
     id: 32,
@@ -320,6 +351,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 39.99,
     releaseDate: "12.04.2016",
     visualContent: ["/StoreProductsImages/dark_souls_3.png"],
+    previewTrailers: [""]
   },
   {
     id: 33,
@@ -330,6 +362,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 19.99,
     releaseDate: "24.03.2015",
     visualContent: ["/StoreProductsImages/bloodborne.png"],
+    previewTrailers: [""]
   },
   {
     id: 34,
@@ -340,6 +373,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 29.99,
     releaseDate: "26.01.2018",
     visualContent: ["/StoreProductsImages/monster_hunter_world.png"],
+    previewTrailers: [""]
   },
   {
     id: 35,
@@ -350,6 +384,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 59.99,
     releaseDate: "07.05.2021",
     visualContent: ["/StoreProductsImages/re_village.png"],
+    previewTrailers: [""]
   },
   {
     id: 36,
@@ -360,6 +395,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 19.99,
     releaseDate: "29.09.2017",
     visualContent: ["/StoreProductsImages/cuphead.png"],
+    previewTrailers: [""]
   },
   {
     id: 37,
@@ -370,6 +406,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 29.99,
     releaseDate: "27.08.2019",
     visualContent: ["/StoreProductsImages/control.png"],
+    previewTrailers: [""]
   },
   {
     id: 38,
@@ -380,6 +417,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 59.99,
     releaseDate: "17.07.2020",
     visualContent: ["/StoreProductsImages/ghost_of_tsushima.png"],
+    previewTrailers: [""]
   },
   {
     id: 39,
@@ -390,6 +428,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 49.99,
     releaseDate: "13.03.2020",
     visualContent: ["/StoreProductsImages/nioh2.png"],
+    previewTrailers: [""]
   },
   {
     id: 40,
@@ -400,6 +439,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 39.99,
     releaseDate: "20.03.2020",
     visualContent: ["/StoreProductsImages/doom_eternal.png"],
+    previewTrailers: [""]
   },
   {
     id: 41,
@@ -410,6 +450,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 59.99,
     releaseDate: "21.07.2017",
     visualContent: ["/StoreProductsImages/splatoon2.png"],
+    previewTrailers: [""]
   },
   {
     id: 42,
@@ -420,6 +461,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 24.99,
     releaseDate: "07.08.2018",
     visualContent: ["/StoreProductsImages/dead_cells.png"],
+    previewTrailers: [""]
   },
   {
     id: 43,
@@ -430,6 +472,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 49.99,
     releaseDate: "28.02.2017",
     visualContent: ["/StoreProductsImages/horizon_zero_dawn.png"],
+    previewTrailers: [""]
   },
   {
     id: 44,
@@ -440,6 +483,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 29.99,
     releaseDate: "11.03.2020",
     visualContent: ["/StoreProductsImages/ori_wisps.png"],
+    previewTrailers: [""]
   },
   {
     id: 45,
@@ -450,6 +494,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 59.99,
     releaseDate: "25.10.2019",
     visualContent: ["/StoreProductsImages/outer_worlds.png"],
+    previewTrailers: [""]
   },
   {
     id: 46,
@@ -460,6 +505,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 49.99,
     releaseDate: "22.03.2019",
     visualContent: ["/StoreProductsImages/sekiro.png"],
+    previewTrailers: [""]
   },
   {
     id: 47,
@@ -470,6 +516,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 59.99,
     releaseDate: "02.10.2020",
     visualContent: ["/StoreProductsImages/crash_4.png"],
+    previewTrailers: [""]
   },
   {
     id: 48,
@@ -480,6 +527,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 69.99,
     releaseDate: "11.06.2021",
     visualContent: ["/StoreProductsImages/ratchet_clank.png"],
+    previewTrailers: [""]
   },
   {
     id: 49,
@@ -490,6 +538,7 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 39.99,
     releaseDate: "07.09.2018",
     visualContent: ["/StoreProductsImages/spiderman.png"],
+    previewTrailers: [""]
   },
   {
     id: 50,
@@ -500,5 +549,6 @@ export const storeItemsData: StoreItemsProps[] = [
     price: 29.99,
     releaseDate: "27.10.2020",
     visualContent: ["/StoreProductsImages/ghostrunner.png"],
+    previewTrailers: [""]
   },
 ];

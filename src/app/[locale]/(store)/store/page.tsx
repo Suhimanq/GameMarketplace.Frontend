@@ -4,7 +4,6 @@ import MainNavigation from "@/components/main/MainNavigation/MainNavigation";
 import ProductBanner from "@/components/main/ProductBanner/ProductBanner";
 import styles from "./StorePage.module.scss";
 import StoreProduct from "@/components/ui/main/StoreProducts/StoreProduct";
-import StoreFilter from "@/components/ui/main/StoreFilter/StoreFilter";
 
 export default function StorePage() {
   return (
