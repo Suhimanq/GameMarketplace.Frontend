@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 import styles from "./MainHeader.module.scss";
 import Link from "next/link";
-import Logo from "@/components/global/Logo/Logo";
+// import Logo from "@/components/global/Logo/Logo";
 import LocalSelect from "@/components/global/LocalSelect/LocalSelect";
 import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
@@ -42,9 +42,9 @@ export default function MainHeader() {
     <div className={styles.header_block}>
       <nav className={styles.nav_block}>
         <div className={styles.left_block}>
-          <div className={styles.logo_block}>
+          {/* <div className={styles.logo_block}>
             <Logo />
-          </div>
+          </div> */}
         </div>
         <div className={styles.center_block}>
           <nav className={styles.navigation_menu}>

@@ -54,7 +54,7 @@ export default function LocalSelect() {
 
   const handleChange = (event: SelectChangeEvent) => {
     const nextLocale = event.target.value as string;
-    const cleanedPathname = pathname.replace(/^\/(en|ru)/, "");
+    const cleanedPathname = pathname.replace(/^\/(en|ru|ua)/, "");
 
     router.replace(`/${nextLocale}${cleanedPathname}`);
   };
@@ -77,6 +77,9 @@ export default function LocalSelect() {
           </MenuItem>
           <MenuItem value={"ru"} sx={menuItemStyles}>
             Русский
+          </MenuItem>
+          <MenuItem value={"ua"} sx={menuItemStyles}>
+            Українська
           </MenuItem>
         </Select>
       </FormControl>

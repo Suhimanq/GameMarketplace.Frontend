@@ -1,0 +1,96 @@
+{
+    "HomePage": {
+      "title": "Привіт світ!",
+      "about": "Ласкаво просимо!"
+    },
+    "HeaderNavMenu": {
+      "store_title": "Магазин",
+      "community_title": "Спільнота",
+      "chat_title": "Чат",
+      "support_title": "Підтримка",
+      "discussions": "Обговорення",
+      "forum": "Форум",
+      "groups": "Групи",
+      "private_chats": "Чати",
+      "group_chats": "Групові чати",
+      "top_products": "Топ",
+      "home": "Головна",
+      "sales": "Знижки",
+      "contact_support": "Зв'язатися з підтримкою",
+      "faq": "FAQ"
+    },
+    "HeaderAuth": {
+      "login": "Увійти",
+      "register": "Реєстрація"
+    },
+    "LoginPage": {
+      "login_title": "Вхід",
+      "login_name": "Увійдіть за допомогою імені акаунта",
+      "login_password": "Пароль",
+      "login_remember_btn": "Запам'ятати мене",
+      "login_enter_btn": "Увійти",
+      "reg_title": "Реєстрація",
+      "reg_name": "Придумайте ім'я акаунта",
+      "reg_password": "Придумайте пароль",
+      "second_reg_password": "Повторіть пароль",
+      "reg_enter_btn": "Зареєструватися",
+      "have_account": "Є акаунт?",
+      "no_account": "Немає акаунта? Зареєструйтеся!"
+    },
+    "ChatPage": {
+      "chat_title": "Чати"
+    },
+    "FooterPage": {
+      "footer_info": "© 2024 Nevets Corporation. Всі права захищено."
+    },
+    "NavMenu": {
+      "categories": "Всі категорії",
+      "selling": "Почати продавати",
+      "partnership": "Співпраця",
+      "guides": "Поради та гіди",
+      "garanties": "Наші гарантії",
+      "services": "Платні послуги",
+      "search_label": "Пошук..."
+    },
+    "MainTagNew": {
+      "new": "Нове"
+    },
+    "GameServicesProductPage": {
+      "recommendation": "Рекомендації",
+      "no_recommendations": "Немає доступних рекомендацій"
+    },
+    "NetworkServicesProductPage": {
+      "recommendation": "Рекомендації",
+      "no_recommendations": "Немає доступних рекомендацій"
+    },
+    "GameProductPage": {
+      "game_services": "Ігрові сервіси"
+    },
+    "NetworkProductPage": {
+      "network_services": "Мережеві продукти"
+    },
+    "ProductBannerCard": {
+      "special_offers": "Спеціальні пропозиції"
+    },
+    "StoreProducts": {
+      "free": "Безкоштовно"
+    },
+    "StoreFilter": {
+      "search": "Пошук",
+      "category": "Категорія",
+      "all": "Усе",
+      "action": "Екшн",
+      "adventure": "Пригоди",
+      "music": "Музика",
+      "video": "Відео",
+      "platform": "Платформа",
+      "windows": "Windows",
+      "ios": "iOS",
+      "android": "Android",
+      "ps4": "PS4",
+      "xbox": "Xbox",
+      "price": "Ціна",
+      "resetFilters": "Скинути фільтри"
+    }
+  }
+  

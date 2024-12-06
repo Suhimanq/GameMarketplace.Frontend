@@ -33,8 +33,10 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
     &:hover {
-      transform: scale(1.02);
+      transform: scale(1.12);
       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+      z-index: 3;
+      background-color: #32536e;
     }
   }
 
