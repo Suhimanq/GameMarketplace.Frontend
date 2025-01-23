@@ -13,7 +13,7 @@ export default function StoreItem() {
   const storeItem = storeItemsData.find((item) => item.id === itemId);
 
   if (!storeItem) {
-    return <div>Элемент не найден</div>;
+    return <div>Not found</div>;
   }
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -67,16 +67,16 @@ export default function StoreItem() {
               className={styles.logo_product}
             />
             <h2>{storeItem.name}</h2>
-            <p>Платформа: {storeItem.platform.join(", ")}</p>
-            <p>Сервис: {storeItem.gameService.join(", ")}</p>
-            <p>Категории: {storeItem.category.join(", ")}</p>
+            <p>Platform: {storeItem.platform.join(", ")}</p>
+            <p>Service: {storeItem.gameService.join(", ")}</p>
+            <p>Category: {storeItem.category.join(", ")}</p>
             <p>
-              Цена:{" "}
-              {storeItem.price === 0 ? "Бесплатно" : `${storeItem.price} $`}
+              Price:{" "}
+              {storeItem.price === 0 ? "Free" : `${storeItem.price} $`}
             </p>
-            <Button className={styles.price_button}>Купить</Button>
+            <Button className={styles.price_button}>Buy</Button>
             <p className={styles.release_date}>
-              Дата выхода: {storeItem.releaseDate}
+              Release date: {storeItem.releaseDate}
             </p>
           </div>
         </div>

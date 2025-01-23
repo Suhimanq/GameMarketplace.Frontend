@@ -41,46 +41,6 @@ export default function ChatPage() {
             </div>
             <div className={styles.chat_nickname}>Mike</div>
           </div>
-          <div className={styles.chat_item}>
-            <div className={styles.chat_avatar}>
-              <Avatar
-                sx={{ bgcolor: "orange" }}
-                alt="Remy Sharp"
-                src="/broken-image.jpg"
-              />
-            </div>
-            <div className={styles.chat_nickname}>Mike</div>
-          </div>
-          <div className={styles.chat_item}>
-            <div className={styles.chat_avatar}>
-              <Avatar
-                sx={{ bgcolor: "orange" }}
-                alt="Remy Sharp"
-                src="/broken-image.jpg"
-              />
-            </div>
-            <div className={styles.chat_nickname}>Mike</div>
-          </div>
-          <div className={styles.chat_item}>
-            <div className={styles.chat_avatar}>
-              <Avatar
-                sx={{ bgcolor: "orange" }}
-                alt="Remy Sharp"
-                src="/broken-image.jpg"
-              />
-            </div>
-            <div className={styles.chat_nickname}>Mike</div>
-          </div>
-          <div className={styles.chat_item}>
-            <div className={styles.chat_avatar}>
-              <Avatar
-                sx={{ bgcolor: "orange" }}
-                alt="Remy Sharp"
-                src="/broken-image.jpg"
-              />
-            </div>
-            <div className={styles.chat_nickname}>Mike</div>
-          </div>
         </div>
       </div>
       <div className={styles.right_block}>
